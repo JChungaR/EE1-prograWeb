@@ -72,6 +72,7 @@ export function login(req, res) {
 export function resetPassword(req, res) {
   return res.render('website/reset-password', {
     title: 'Recuperar Contraseña',
+    background: "/assets/img/login-bg.png"
   });
 }
 
